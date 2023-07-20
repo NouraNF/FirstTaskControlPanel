@@ -15,4 +15,4 @@ $conn = mysqli_connect ("localhost", "root","","nouratask1");
 5.running Apache and MySQL in XAMPP.
 
 This is My Control Panel for Robot:
-![Screenshot](Remote Control img.png)
+![Screenshot](RemoteControlimg.png)
