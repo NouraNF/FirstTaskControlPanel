@@ -9,3 +9,10 @@ $conn = mysqli_connect ("localhost", "root","","nouratask1");
 
 3.create DB in phpMyAdmin :
 ![Screenshot](phpmyadmtable.png)
+
+4.putting the files in 'xampp\htdocs'.
+
+5.running Apache and MySQL in XAMPP.
+
+This is My Control Panel for Robot:
+![Screenshot](Remote Control img.png)
