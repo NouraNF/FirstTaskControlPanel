@@ -8,4 +8,4 @@ $conn = mysqli_connect ("localhost", "root","","nouratask1");
 ```
 
 3.create DB in phpMyAdmin :
-<img scr ="phpmyadmtable.png" width ="300">
+<img scr ="https://github.com/NouraNF/FirstTaskControlPanel/blob/main/phpmyadmtable.png" width ="300">
