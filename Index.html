@@ -1,0 +1,86 @@
+<html>
+   <title>Control Panel</title>
+    <style>
+
+   
+        .button{
+        background-color:rgb(86, 148, 96);
+        color: rgb(255, 255, 255);
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor:pointer;
+        opacity: 0.7;
+        font-family: fantasy;
+        font-style: italic;
+        }
+    
+        .button2{
+            background-color:rgb(236, 128, 173);
+        color: rgb(126, 126, 126);
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor:pointer;
+        font-family: fantasy;
+        font-style: italic;
+        }
+
+        body{
+         justify-content: center;
+         align-items: center;
+         display: flex;
+         flex-wrap: nowrap;
+         flex-direction: column;
+        }
+
+        .container{
+         display: flex;
+         flex-direction: row;
+        }
+    
+    </style>
+
+<head>
+
+
+
+
+
+</head>
+
+
+<body>
+
+    <center><h1 style=" font-family: fantasy; font-style: initial; color: rgb(107, 6, 6)">REMOTE CONTROL </h1></center>
+             <form action="addB.php" method="post"> 
+                <button name="GO FORWARD" value="GO FORWARD" class="button button2 ">GO FORWARD</button>
+             </form>
+     <span class="container" >           
+             <form action="addL.php" method="post"> 
+                <button name="TURN LEFT" value="TURN LEFT" class="button">TURN LEFT</button>
+             </form>
+             <form action="addS.php" method="post">    
+                <button name="STOP" value="STOP" class="button button3">STOP</button>
+             </form>
+             <form action="addR.php" method="post">
+                <button name="TURN RIGHT" value="TURN RIGHT" class="button">TURN RIGHT</button>
+            </form>   
+     </span>       
+            <form action="addF.php" method="post">
+               <button name="GO BACKWARD" value="GO BACKWARD" class="button button2">GO BACKWARD</button>
+            </form>   
+             
+         
+    
+</body>
+
+
+
+</html>
